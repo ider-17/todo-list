@@ -1,0 +1,12 @@
+.tabButton {
+    display: flex;
+    height: 32px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background-color: #3C82F6;
+    color: white;
+    border: 0;
+}

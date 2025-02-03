@@ -1,0 +1,6 @@
+.cardContainer {
+    width: 377px;
+    margin:  40px auto auto auto;
+    border: 1px solid grey;
+    border-radius: 16px;
+}

@@ -1,0 +1,25 @@
+.inputContainer {
+    justify-self: center;
+}
+
+.input {
+    height: 38px;
+    width: 248px;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid #71717A;
+    margin-right: 6px;
+}
+
+.button {
+    height: 40px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #3C82F6;
+    border: 0;
+    color: white;
+}
