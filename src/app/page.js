@@ -10,6 +10,10 @@ export default function Home() {
         <Title />
         <Input />
         <TabsContainer />
+        <div className={styles.textContainer}>
+        <p>Powered by</p>
+        <p className={styles.pineconeText}>Pinecone academy</p>
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,16 @@
 .cardContainer {
     width: 377px;
-    margin:  40px auto auto auto;
+    margin: 40px auto auto auto;
     border: 1px solid grey;
     border-radius: 16px;
+}
+
+.pineconeText {
+    color: #3B73ED;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
 }

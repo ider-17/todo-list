@@ -1,4 +1,27 @@
 .tabsContainer {
     display: flex;
     gap: 6px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.button {
+    height: 32px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 0;
+    background-color: #F3F4F6;
+    color: #363636;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#firstButton {
+    background: #3C82F6;
+    color: white;
 }
