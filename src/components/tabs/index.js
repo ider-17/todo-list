@@ -1,11 +1,17 @@
-import styles from "./tabs.module.css"
+import styles from './tabs.module.css'
+import Tab from '../tab';
 
-export function TabsContainer() {
+const Tabs = () => {
+    const TABS = ['All', 'Active', 'Completed'];
     return (
         <div className={styles.tabsContainer}>
-            <button id={styles.firstButton} className={styles.button}>All</button>
-            <button className={styles.button}>Active</button>
-            <button className={styles.button}>Completed</button>
+            {TABS.map((tab) => {
+                return (
+                    <Tab option={tab} />
+                )
+            })}
         </div>
     )
 }
+
+export default Tabs
