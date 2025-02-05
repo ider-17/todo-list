@@ -7,7 +7,7 @@ const Tabs = () => {
         <div className={styles.tabsContainer}>
             {TABS.map((tab) => {
                 return (
-                    <Tab option={tab} />
+                    <Tab key={tab} option={tab} />
                 )
             })}
         </div>

@@ -8,13 +8,27 @@ import { useState } from "react";
 
 export default function Home() {
   const [tasks, setTasks] = useState([]);
-  console.log(tasks);
-  
+  function onclick() {
+    return (
+      console.log()
+
+    )
+  }
+
+  const [inputValue, setInputValue] = useState("");
+  const onChange = (event) => {
+    setInputValue(event.target.value)
+  }
+const change = ()=>{
+  return console.log(inputValue)
+}
+
+
   return (
     <div>
       <div className={styles.cardContainer}>
         <Title />
-        <Input setTasks={setTasks} />
+        <Input setTasks={tasks} onChange={onChange} inputValue={inputValue}  add= {change}/>
         <TaskContainer tasks={tasks} />
         <div className={styles.textContainer}>
           <p>Powered by</p>

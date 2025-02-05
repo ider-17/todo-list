@@ -3,7 +3,7 @@ const { default: TaskList } = require("../taskList")
 
 const TaskContainer = (props) => {
     return (
-        <div className="">
+        <div>
             <Tabs />
             <TaskList tasks={props.tasks} />
         </div>
